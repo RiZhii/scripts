@@ -1,0 +1,125 @@
+{
+  "test_plan": {
+    "project_id": "Odoo",
+    "start_url": "https://www.odoo.com/",
+    "exported_at": "2026-03-25T05:40:20.574Z",
+    "total_steps": 9,
+    "steps": [
+      {
+        "id": "step_1",
+        "index": 1,
+        "type": "navigate",
+        "url": "https://www.odoo.com/"
+      },
+      {
+        "id": "step_2",
+        "index": 2,
+        "type": "assert",
+        "selector": "div:nth-of-type(4) > div:nth-of-type(1)",
+        "selectors": [
+          "div:nth-of-type(4) > div:nth-of-type(1)",
+          "div"
+        ],
+        "assert_type": "element_visible",
+        "auto_captured": true,
+        "captured_text": "Modal opened"
+      },
+      {
+        "id": "step_3",
+        "index": 3,
+        "type": "assert",
+        "selector": "#three-ds-container",
+        "selectors": [
+          "#three-ds-container",
+          "div:nth-of-type(4) > div:nth-of-type(3)",
+          "div"
+        ],
+        "assert_type": "element_visible",
+        "auto_captured": true,
+        "captured_text": "Modal opened"
+      },
+      {
+        "id": "step_4",
+        "index": 4,
+        "type": "assert",
+        "selector": "div:nth-of-type(4) > div:nth-of-type(4)",
+        "selectors": [
+          "div:nth-of-type(4) > div:nth-of-type(4)",
+          "div"
+        ],
+        "assert_type": "element_visible",
+        "auto_captured": true,
+        "captured_text": "Modal opened"
+      },
+      {
+        "id": "step_5",
+        "index": 5,
+        "type": "assert",
+        "selector": "div:nth-of-type(4) > div:nth-of-type(6)",
+        "selectors": [
+          "div:nth-of-type(4) > div:nth-of-type(6)",
+          "div"
+        ],
+        "assert_type": "element_visible",
+        "auto_captured": true,
+        "captured_text": "Modal opened"
+      },
+      {
+        "id": "step_6",
+        "index": 6,
+        "type": "click",
+        "action_text": "Apps",
+        "selector": "text=Apps",
+        "selectors": [
+          "text=Apps",
+          "#top_menu .dropdown",
+          ".dropdown",
+          "div:nth-of-type(1) > header > div > ul:nth-of-type(2) > li:nth-of-type(1)",
+          "li"
+        ]
+      },
+      {
+        "id": "step_7",
+        "index": 7,
+        "type": "click",
+        "action_text": "Apps",
+        "selector": "[aria-label=\"Apps: use the dropdown menu to switch apps\"]",
+        "selectors": [
+          "[aria-label=\"Apps: use the dropdown menu to switch apps\"]",
+          "text=Apps",
+          "header > div > ul:nth-of-type(2) > li:nth-of-type(1) > a",
+          "a"
+        ]
+      },
+      {
+        "id": "step_8",
+        "index": 8,
+        "type": "assert",
+        "selector": "#top_menu .start-0.dropdown-menu",
+        "selectors": [
+          "#top_menu .start-0.dropdown-menu",
+          ".start-0.dropdown-menu",
+          ".start-0",
+          "header > div > ul:nth-of-type(2) > li:nth-of-type(1) > div",
+          "div"
+        ],
+        "assert_type": "element_visible",
+        "auto_captured": true,
+        "captured_text": "Finance\n                                        \n                                            Account"
+      },
+      {
+        "id": "step_9",
+        "index": 9,
+        "type": "click",
+        "action_text": "Accounting",
+        "selector": "text=Accounting",
+        "selectors": [
+          "text=Accounting",
+          ".dropdown-item",
+          "div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+          "a"
+        ]
+      }
+    ]
+  }
+}
